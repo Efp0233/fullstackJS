@@ -6,6 +6,7 @@ import veterinarioRoutes from './routes/veterinarioRoutes.js';
 import pacienteRoutes from './routes/pacienteRoutes.js';
 
 
+
 const app = express();
 app.use(express.json());
 dotenv.config();
